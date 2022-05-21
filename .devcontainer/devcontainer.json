@@ -1,0 +1,19 @@
+{
+    "name": "Hello Docker from VS Code",
+    "context": "..",
+    "build": {
+        "dockerfile": "../Dockerfile"
+    },
+    "forwardPorts": [
+        8888
+    ],
+    "extensions": [
+        "GitHub.copilot",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter",
+        "ms-toolsai.jupyter-keymap",
+        "ms-toolsai.jupyter-renderers",
+        "seatonjiang.gitmoji-vscode",
+    ]
+}
